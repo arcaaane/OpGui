@@ -22,9 +22,9 @@ namespace OptimizeX
         }
         
         UnityEngine.GUI.color = Color.black;
-        if (GUI.Button(new Rect(0f, 0f, 280f, 35f), "Lag All"))
+        if (GUI.Button(new Rect(0f, 0f, 280f, 35f), "Reduce Graphics"))
         {
-            Debug.Log("Button clicked!"); 
+            TextureLimit();
         }
     }
 }
